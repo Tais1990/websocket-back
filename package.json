@@ -1,0 +1,20 @@
+{
+    "type": "module",
+    "name": "websocket-back",
+    "version": "1.0.0",
+    "author": "Turysheva Kate <tais_kat@list.ru>",
+    "description": "Test Request. Websocket with react query",
+    "license": "MIT",
+    "dependencies": {
+      "ws": "^8.13.0",
+      "cross-env": "^7.0.3",
+      "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.20"
+    },
+    "scripts": {
+      "start": "NODE_ENV=prod node src/server.js",
+      "dev": " cross-env NODE_ENV=dev nodemon src/server.js"
+    }
+  }
